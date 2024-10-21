@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e40ba71651.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo (2).png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I'm Shraddha Patel</h1>
+            <h7>As a proactive and solution-oriented 3rd-year B.Tech IT student with a solid 
+                <br>foundation in logical reasoning and problem-solving, I am eager to secure a 
+                <br>development role where I can leverage my skills to contribute innovative solutions. </h7>
+        </div>
+    </div>
+</div>
+
+<!-----------------------------ABOUT---------------------------------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <div class="subtitle">
+                    <h1>About Me</h1>
+                </div>
+                <p>
+                    Getting to know the inside of a CPU fascinated me as a child. The childhood curiosity and inclination towards logic paved a path towards entering the tech industry.
+                    Hello everyone.Welcome to my corner of the internet! I'm Shraddha Patel, a passionate and enthusiastic B.Tech IT'25 student with a fondness for turning caffeine into code and ideas into innovation.
+                    From diving into the depths of data mining to crafting pixel-perfect web applications, I thrive on the thrill of problem-solving and the satisfaction of turning lines of code into tangible solutions. With a background in web development, game development, and a sprinkle of IoT magic, I'm  versatile, sharp, and always ready to tackle the next challenge.
+                    But don't let the tech jargon fool you – behind the screen, I'm just a regular human with a love for good coffee, bad puns, and the occasional existential crisis over semicolons. When I'm not glued to my keyboard, you'll find me exploring the world of art and culture, volunteering for causes close to my heart, or simply getting lost in the pages of a good book.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>App Development</span><br>Building android applications</li>
+                        <li><span>Web Development</span><br>Design Web interface</li>
+                        <li><span>Game Development</span><br>Develop 2D gaming applications</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>JUNE-NOV (2023)</span><br>Research blogger</li>
+                        <li><span>MAY-JULY (2024)</span><br>Unity Developer Intern</li>
+                    </ul>
+                </div>
+
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2025</span><br>Btech IT From NMIMS Shirpur</li>
+                        <li><span>2019-2021</span><br>Senior Secondary from J H Ambani</li>
+                        <li><span>2007-2019</span><br>Higher Secondary from J H Ambani</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------------------portfolio------------------------------------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="images/project2.jpg">
+                <div class="layer">
+                    <h3>AttendEase</h3>
+                    <p class="dummy">Attend Ease is a mobile application developed using Android Studio that simplifies the process of accessing attendance reports. It presents attendance data in a visually appealing bar chart format, making it easy for users to track their attendance over time.
+
+                    </p>
+                    <a href="https://github.com/pshraddha128/Attend--Ease.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/project3.jpg">
+                <div class="layer">
+                    <h3>To-Do-List</h3>
+                    <p class="dummy">This project is a simple MERN (MongoDB, Express, React, Node.js) application designed to help you manage your tasks, projects, and team work effectively. This Web Application will help you through the process of creating, reading, updating, and deleting Todos.
+
+                    </p>
+                    <a href="https://github.com/pshraddha128/To-Do-List.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/project1.jpg">
+                <div class="layer">
+                    <h3>Breakout-Clone</h3>
+                    <p class="dummy">This repository contains the source code for a Breakout game implemented in Lua using the Love2D framework. The game is based on the classic Breakout arcade game where the player controls a paddle to bounce a ball and break bricks.
+
+                    </p>
+                    <a href="https://github.com/pshraddha128/Breakout-Clone.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/pshraddha128?tab=repositories" class="btn">See more</a>
+    </div>
+</div>
+
+
+
+<!--------------------------contact--------------------------------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>SHRADDHA.PATEL196@nmims.in</p>
+                <p><i class="fa-solid fa-square-phone-flip"></i>8780158174</p>
+                <div class="social-icons">
+                    <a href="linkedin.com/in/shraddha-patel-a59456248"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/pshraddha128"><i class="fa-brands fa-github"></i></a>
+                    
+                </div>
+                <a href="images/ShraddhaPatel.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
